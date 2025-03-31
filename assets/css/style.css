@@ -1,0 +1,14 @@
+
+/*
+Theme Name: Minimal Tailwind Theme
+Theme URI: https://replit.com
+Author: Your Name
+Description: A minimal and elegant WordPress theme using Tailwind CSS
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: minimal-tailwind
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

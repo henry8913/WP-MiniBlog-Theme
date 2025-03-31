@@ -1,0 +1,12 @@
+services:
+  - name: wp-miniblog-theme
+    type: web
+    runtime: docker
+    repo: https://github.com/henry8913/WP-MiniBlog-Theme
+    branch: main
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 80
+
+
